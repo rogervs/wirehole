@@ -1,6 +1,10 @@
 ## What is this?
 WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound). 
 
+### Infrastructure model
+
+![Insfrastructure model](.infragenie/infrastructure_model.png)
+
 ## Author
 
 👤 **Devin Stokes**
@@ -381,7 +385,3 @@ Both of these approaches have positives and negatives however their setup is out
 ###### Shout out to LinuxServer.io for their documentation and maintenance of the incredible Wireguard image.
 
 --- 
-
-### Infrastructure model
-
-![Insfrastructure model](.infragenie/infrastructure_model.png)
